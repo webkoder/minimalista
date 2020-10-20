@@ -1,0 +1,43 @@
+#bio{
+    flex: 1 0 25%;
+    height: 100%;
+    color: $primary_text;
+    background: $primary;
+  
+    .bioinfo{
+      margin:20px auto;
+      width: 200px;
+    }
+  
+    h1{
+      margin:0;
+      padding:0;
+    }
+  
+    p{
+      margin:0;
+    }
+
+    @include mobile{
+      padding:5% 0px;
+      height:auto;
+    }
+  }
+
+  .avatarwrapper{
+    padding-top:30%;
+    .avatar{
+      overflow: hidden;
+      width: $avatarsize;
+      height: $avatarsize;
+      border-radius: 50%;
+      border:10px solid $secondary;
+      margin:0 auto 0 auto;
+    }
+
+    @include mobile{
+      padding:0;
+    }
+
+  }
+  

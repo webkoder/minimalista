@@ -1,0 +1,30 @@
+
+.social{
+  padding-top:5%;
+  margin:0 auto 0 auto;
+  width:80%;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include mobile{
+    width:95%;
+    height: 100%;
+  }
+
+  .tile{
+    padding:40px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(155, 155, 155, .5);
+    color: $primary;
+    margin: 25px;
+
+    @include mobile{
+      padding:5%;
+      margin:5%;
+    }
+
+    &:hover{
+      box-shadow: 0px 0px 10px 0px rgba(155, 155, 155, .8);
+    }
+  }
+}

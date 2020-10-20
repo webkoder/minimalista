@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+html, body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px; }
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  background: #eee; }
+  @media screen and (max-width: 900px) {
+    .wrapper {
+      display: block; } }
+
+#content {
+  flex: 1 0 75%;
+  background: #eee; }
+
+#bio {
+  flex: 1 0 25%;
+  height: 100%;
+  color: #ffffff;
+  background: #246EB9; }
+  #bio .bioinfo {
+    margin: 20px auto;
+    width: 200px; }
+  #bio h1 {
+    margin: 0;
+    padding: 0; }
+  #bio p {
+    margin: 0; }
+  @media screen and (max-width: 900px) {
+    #bio {
+      padding: 5% 0px;
+      height: auto; } }
+
+.avatarwrapper {
+  padding-top: 30%; }
+  .avatarwrapper .avatar {
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 10px solid #F96F5D;
+    margin: 0 auto 0 auto; }
+  @media screen and (max-width: 900px) {
+    .avatarwrapper {
+      padding: 0; } }
+
+.social {
+  padding-top: 5%;
+  margin: 0 auto 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 900px) {
+    .social {
+      width: 95%;
+      height: 100%; } }
+  .social .tile {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(155, 155, 155, 0.5);
+    color: #246EB9;
+    margin: 25px; }
+    @media screen and (max-width: 900px) {
+      .social .tile {
+        padding: 5%;
+        margin: 5%; } }
+    .social .tile:hover {
+      box-shadow: 0px 0px 10px 0px rgba(155, 155, 155, 0.8); }

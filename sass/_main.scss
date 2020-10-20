@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html, body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0px;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  background:$bg;
+
+  @include mobile{
+    display:block;
+  }
+}
+
+
+#content{
+  flex:1 0 75%;
+  background: $bg;
+}
